@@ -19,8 +19,8 @@ abstract class BankAccount{
 
     abstract double calculateInterest(double balance);
 
-    public final String displayAccountDetails(){
-        return accountHolderName + "\n AccountNumber :" +accountNumber;
+    public final void displayAccountDetails(){
+        System.out.println( accountHolderName + "\nAccountNumber :" +accountNumber);
     };
 
 
