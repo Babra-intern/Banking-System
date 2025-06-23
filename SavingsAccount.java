@@ -13,8 +13,8 @@ public class SavingsAccount extends BankAccount implements LoanAccount{
 
     public double calculateInterest(double balance){
         double  principal = balance;
-        final double interestRate = 0.04;
-        double time = 1;  //interest after every year
+        final double interestRate = 0.04;//interest after every year
+        double time = 1;  
         
         
         double interest = principal * interestRate * time;
